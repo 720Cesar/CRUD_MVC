@@ -1,0 +1,80 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*** MENU LATERAL ***/
+.sidenav{
+    height: 100%;
+    width: 200px;
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden; /*Esconde el desbordamiento*/
+    padding-top: 10px;
+    top: 0; /*Se quita el espacio de arriba*/
+    left: 0; /*Se quita el espacio de abajo*/
+}
+
+.sidenav a{
+    padding: 6px 8px 6px 16px;
+    font-size: 20px;
+    color: gray;
+    display: block;
+    text-decoration: none;
+}
+
+.sidenav a:hover{
+    color: white;
+}
+
+.principal{
+    /* Mismo tamaño que el sidenav*/
+    margin-left: 200px; 
+    padding: 0px 10px;
+}
+
+/*** TABLA ***/
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+tr:hover{
+    background-color: gainsboro;
+}
+
+th, td{
+    padding: 10px;
+}
+
+
+/*** BOTONES ***/
+
+.btn{
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.success{
+    background-color: rgb(19, 210, 12);
+}
+.success:hover{
+    background-color: rgb(8, 159, 8);
+}
+
+.danger {
+    background-color: rgb(218, 2, 2);
+} 
+.danger:hover {
+    background: rgb(148, 3, 3);
+}
+
+a{
+    text-decoration: none;
+}
